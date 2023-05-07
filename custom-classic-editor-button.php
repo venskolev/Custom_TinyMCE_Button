@@ -27,7 +27,7 @@ function custom_classic_editor_button_register( $buttons ) {
 }
 
 function custom_classic_editor_button_add_plugin( $plugins ) {
-    $plugins['custom_button'] = plugin_dir_url( __FILE__ ) . 'custom-class-editor-button.js';
+    $plugins['custom_button'] = plugin_dir_url( __FILE__ ) . 'custom-class-edite-button.js';
     return $plugins;
 }
 
